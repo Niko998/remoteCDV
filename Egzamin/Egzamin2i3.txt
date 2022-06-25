@@ -1,0 +1,17 @@
+Zadanie 2:
+
+Status zmian w repo - 						git status
+Dodanie wszystkich brakujących plików - 	git add -p 
+Wrzucenie plików na serwer - 				git push origin branch
+
+
+Zadanie 3:
+
+SELECT * FROM CoffeeShop.xlsx 
+WHERE Product = "Long Black" AND City != "Philadelphia" OR Product = "Latte" AND City != "Philadelphia";
+
+SELECT Product, Size FROM CoffeShop.xlsx 
+WHERE [Customer ref] = "william thompson_86" OR [Customer ref] = "mark taylor_113";
+
+SELECT City FROM CoffeShop.xlsx
+WHERE Product = "Capuccino" OR Product = "Flat White"; 
